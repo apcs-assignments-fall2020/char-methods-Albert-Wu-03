@@ -55,4 +55,5 @@ public class MyTests {
         assertEquals("1234567890", MyMain.myToUpperCase("1234567890"), "Calling myToUpperCase on the string \"1234567890\" should output: 1234567890");
         assertEquals("1 PLUS 2 = FIVE", MyMain.myToUpperCase("1 PLUS 2 = fivE"), "Calling myToUpperCase on the string \"1 PLUS 2 = fivE\" should output: 1 PLUS 2 = FIVE");
     }
+    
 }
